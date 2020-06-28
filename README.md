@@ -22,12 +22,12 @@
 #### 2020年6月16号
 
 #### 曾凡晨
-- **论文名字** ：Skeleton-Based Action Recognition with Directed Graph Neural Networks；
-- **论文来源** ：2019CVPR；
-- **代码地址** ：[连接](https://github.com/kenziyuliu/Unofficial-DGNN-PyTorch) 或者 https://github.com/kenziyuliu/Unofficial-DGNN-PyTorch ；
-- **方法简称** ：DGNN ；
-- **方法方向** ：行为骨骼识别 ；
-- **快速获取** ：
+- **论文名字** : Skeleton-Based Action Recognition with Directed Graph Neural Networks ;
+- **论文来源** : 2019CVPR;
+- **代码地址** : [连接](https://github.com/kenziyuliu/Unofficial-DGNN-PyTorch) 或者 https://github.com/kenziyuliu/Unofficial-DGNN-PyTorch ;
+- **方法简称** : DGNN ;
+- **方法方向** : 行为骨骼识别 ;
+- **快速获取** :
 ```powershell
 git clone https://github.com/TiantianWang/ICCV17_SRM.git
 ```
@@ -39,12 +39,12 @@ git clone https://github.com/TiantianWang/ICCV17_SRM.git
 
 
 #### 吕祥杰
-- **论文名字** ：A Stagewise Refinement Model for Detecting Salient Objects in Images；
-- **论文来源** ：2017ICCV；
-- **代码地址** ：[链接](https://github.com/TiantianWang/ICCV17_SRM) 或者 https://github.com/TiantianWang/ICCV17_SRM 
-- **方法简称** ：SRM
-- **方法方向** ：显著性检测
-- **快速获取** ：
+- **论文名字** : A Stagewise Refinement Model for Detecting Salient Objects in Images ;
+- **论文来源** : 2017ICCV ;
+- **代码地址** : [链接](https://github.com/TiantianWang/ICCV17_SRM) 或者 https://github.com/TiantianWang/ICCV17_SRM ; 
+- **方法简称** : SRM ;
+- **方法方向** : 显著性检测 ;
+- **快速获取** : 
 ```powershell
 git clone https://github.com/kenziyuliu/Unofficial-DGNN-PyTorch.git
 ```
