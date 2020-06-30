@@ -117,8 +117,8 @@ git clone https://github.com/mbrbic/L0-motivated-LRSSC.git
 - **论文名字** : Multi-Label Classification with Label Graph Superimposing ;
 - **论文来源** : 2020AAAI ;
 - **代码地址** : [链接](https://github.com/mathkey/mssnet) 或者 https://github.com/DaYuML/mssnet ; 
-- **方法简称** : LRSSC ;
-- **方法方向** : 显著性检测 ;
+- **方法简称** : mssnet ;
+- **方法方向** : 多标签图像分类 ;
 - **快速获取** : 
 ```powershell
 git clone https://github.com/mathkey/mssnet.git
