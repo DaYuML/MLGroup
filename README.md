@@ -19,7 +19,8 @@
 
 ### 2020春季
 
-#### 2020年6月16号
+
+#### 2020年6月26号
 
 ##### 凌媛
 - **论文名字** : Network Representation Learning with Rich Text Information ;
@@ -53,8 +54,6 @@ git clone https://github.com/TiantianWang/ICCV17_SRM.git
 | :-------- |
 | 在这项工作中，我们根据人体关节和骨骼之间的运动相关性，将骨骼数据表示为有向无环图 (DAG)。设计了一种新的有向图神经网络，用于提取关节、骨骼及其相互关系的信息，并根据提取的特征进行预测。另外，为了更好地适应动作识别任务，在训练过程的基础上，对图的拓扑结构进行了自适应(Adaptive)，使其得到了显著的改进。在双流框架下，利用骨架序列的运动信息，结合空间信息，进一步提高性能。|
 
-
-
 ##### 吕祥杰
 - **论文名字** : A Stagewise Refinement Model for Detecting Salient Objects in Images ;
 - **论文来源** : 2017ICCV ;
@@ -86,15 +85,20 @@ git clone https://github.com/kenziyuliu/Unofficial-DGNN-PyTorch.git
 | 时态建模是视频动作识别的关键。它通常既考虑短期的移动，也考虑长期的聚集。在本文中，我们提出了一个时间激发和聚集(TEA)模块，包括一个运动激发(ME)模块和一个多时间聚集(MTA)模块，专门设计来捕获短期和长期的时间演化。特别是对于短程运动建模，ME模块从时空特征计算特征级的时间差异。然后，它利用这些差异来激发特征的动作敏感通道。在以往的工作中，长期的时间聚合通常是通过叠加大量的局部时间卷积来实现的。每次卷积处理一个局部时间窗口。相比之下，MTA模块提出将局部卷积变形为一组子卷积，形成层次化残差结构。在不引入附加参数的情况下，对特征进行一系列的子卷积处理，每一帧可以完成多个邻域的时间聚合。最终的时间维的等效感受域被相应地扩大，从而能够在远帧上建立长期的时间关系。茶块的两个组成部分在时态建模中是互补的。最后，我们的方法在几个行动识别基准上取得了令人印象深刻的结果，例如Kinetics, Something-Something, HMDB51，和UCF101，这证明了它的有效性和效率。 |
 
 ##### 王鑫鑫
-- **论文名字** : Skeleton-Based Action Recognition with Directed Graph Neural Networks ;
-- **论文来源** : 2019CVPR ;
-- **代码地址** : [连接](https://github.com/kenziyuliu/Unofficial-DGNN-PyTorch) 或者 https://github.com/DaYuML/Unofficial-DGNN-PyTorch ;
-- **方法简称** : DGNN ;
-- **方法方向** : 行为骨骼识别 ;
+- **论文名字** : GEMSEC: Graph Embedding with Self Clustering ;
+- **论文来源** : 2019ASONAM ;
+- **代码地址** : [连接](https://github.com/benedekrozemberczki/GEMSEC) 或者 https://github.com/DaYuML/GEMSEC ;
+- **方法简称** : GEMSEC ;
+- **方法方向** : 图嵌入 ;
 - **快速获取**
 ```powershell
-git clone https://github.com/TiantianWang/ICCV17_SRM.git
+git clone https://github.com/DaYuML/GEMSEC.git
 ```
+
+| 方法介绍 |
+| :-------- |
+| 现代的图嵌入过程可以有效地处理具有数百万节点的图。在本文中，我们提出了gemseca图嵌入算法，该算法在计算嵌入节点的同时学习节点的聚类。GEMSEC是早期基于序列的嵌入图领域工作的一般扩展。GEMSEC将节点放置在一个抽象的特征空间中，在这个空间中，顶点特征最小化了保留抽样顶点邻域的负对数概率，并通过机器学习正则化整合了已知的社交网络属性。我们提出了两个新的社交网络数据集，并表明通过同时考虑与社交属性相关的嵌入和聚类问题，GEMSEC可以提取出高质量的具有竞争力或优于其他社区检测算法的聚类。实验表明，该方法对超参数的选择具有较高的计算效率和鲁棒性。 |
+
 
 #### 2020年6月30号
 
