@@ -21,7 +21,24 @@
 
 #### 2020年6月16号
 
-#### 曾凡晨
+##### 凌媛
+- **论文名字** : Network Representation Learning with Rich Text Information ;
+- **论文来源** : 2015IJCAI ;
+- **代码地址** : [链接](https://github.com/DaYuML/TADW) 或者 https://github.com/DaYuML/TADW ; 
+- **方法简称** : TADW ;
+- **方法方向** : 网络表示学习 ;
+- **快速获取** : 
+```powershell
+git clone https://github.com/DaYuML/TADW.git
+```
+
+| 方法介绍 |
+| :-------- |
+| 表示学习在图像分类和文本挖掘等任务中显示了其有效性。网络表示学习的目的是学习网络中每个顶点的分布式向量表示，它也日益被认为是网络分析的一个重要方面。大多数网络表示学习方法研究网络结构进行学习。现实中，网络顶点包含丰富的信息，典型的表示学习算法框架不能很好地应用这些信息。通过证明DeepWalk，一种最先进的网络表示方法，实际上等价于矩阵分解(MF)，我们提出了文本相关的DeepWalk (TADW)。在矩阵分解的框架下，TADW将顶点的文本特征融入到网络表示学习中。我们通过将我们的方法和各种基线方法应用于顶点的多类分类任务来评估它们。实验结果表明，该方法在三个数据集上的性能都优于其他基线，特别是在网络噪声较大和训练比较小时。 |
+
+#### 2020年6月16号
+
+##### 曾凡晨
 - **论文名字** : Skeleton-Based Action Recognition with Directed Graph Neural Networks ;
 - **论文来源** : 2019CVPR ;
 - **代码地址** : [连接](https://github.com/kenziyuliu/Unofficial-DGNN-PyTorch) 或者 https://github.com/DaYuML/Unofficial-DGNN-PyTorch ;
@@ -38,7 +55,7 @@ git clone https://github.com/TiantianWang/ICCV17_SRM.git
 
 
 
-#### 吕祥杰
+##### 吕祥杰
 - **论文名字** : A Stagewise Refinement Model for Detecting Salient Objects in Images ;
 - **论文来源** : 2017ICCV ;
 - **代码地址** : [链接](https://github.com/TiantianWang/ICCV17_SRM) 或者 https://github.com/DaYuML/ICCV17_SRM ; 
@@ -56,7 +73,7 @@ git clone https://github.com/kenziyuliu/Unofficial-DGNN-PyTorch.git
 
 #### 2020年6月23号
 
-#### 苏志翔
+##### 苏志翔
 - **论文名字** : TEA: Temporal Excitation and Aggregation for Action Recognition ;
 - **论文来源** : ICCV2019 ;
 - **代码地址** : 还没发布 ; 
@@ -68,7 +85,7 @@ git clone https://github.com/kenziyuliu/Unofficial-DGNN-PyTorch.git
 | :-------- |
 | 时态建模是视频动作识别的关键。它通常既考虑短期的移动，也考虑长期的聚集。在本文中，我们提出了一个时间激发和聚集(TEA)模块，包括一个运动激发(ME)模块和一个多时间聚集(MTA)模块，专门设计来捕获短期和长期的时间演化。特别是对于短程运动建模，ME模块从时空特征计算特征级的时间差异。然后，它利用这些差异来激发特征的动作敏感通道。在以往的工作中，长期的时间聚合通常是通过叠加大量的局部时间卷积来实现的。每次卷积处理一个局部时间窗口。相比之下，MTA模块提出将局部卷积变形为一组子卷积，形成层次化残差结构。在不引入附加参数的情况下，对特征进行一系列的子卷积处理，每一帧可以完成多个邻域的时间聚合。最终的时间维的等效感受域被相应地扩大，从而能够在远帧上建立长期的时间关系。茶块的两个组成部分在时态建模中是互补的。最后，我们的方法在几个行动识别基准上取得了令人印象深刻的结果，例如Kinetics, Something-Something, HMDB51，和UCF101，这证明了它的有效性和效率。 |
 
-#### 王鑫鑫
+##### 王鑫鑫
 - **论文名字** : Skeleton-Based Action Recognition with Directed Graph Neural Networks ;
 - **论文来源** : 2019CVPR ;
 - **代码地址** : [连接](https://github.com/kenziyuliu/Unofficial-DGNN-PyTorch) 或者 https://github.com/DaYuML/Unofficial-DGNN-PyTorch ;
@@ -80,12 +97,13 @@ git clone https://github.com/TiantianWang/ICCV17_SRM.git
 ```
 
 #### 2020年6月30号
-#### 凌媛
+
+##### 凌媛
 - **论文名字** : TEA: Temporal Excitation and Aggregation for Action Recognition ;
 - **论文来源** : 2018IEEE Transactions on Cybernetics ;
 - **代码地址** : [链接](https://github.com/mbrbic/L0-motivated-LRSSC) 或者 https://github.com/DaYuML/L0-motivated-LRSSC ; 
 - **方法简称** : LRSSC ;
-- **方法方向** : 显著性检测 ;
+- **方法方向** : 数据表示矩阵施加低秩和稀疏约束 ;
 - **快速获取** : 
 ```powershell
 git clone https://github.com/mbrbic/L0-motivated-LRSSC.git
@@ -95,7 +113,7 @@ git clone https://github.com/mbrbic/L0-motivated-LRSSC.git
 | :-------- |
 | 在许多应用中，高维数据点可以用低维子空间很好地表示。为了识别子空间，捕获数据的全局和局部结构是很重要的，这是通过对数据表示矩阵施加低秩和稀疏约束来实现的。在低秩稀疏子空间聚类(LRSSC)中，利用核范数和l1范数来度量秩和稀疏性。然而，使用核规范和l1 -规范导致了一个过于严重的问题，而且只是近似于原来的问题。在本文中，我们提出了两个基于L0拟范数的正则化。首先，提出了基于最小凹惩罚的多元概化正则化方法，该方法包含了拟范数正则化目标的全局极小化。随后，我们引入Schatten-0 (S0)和l1 -正则化目标，并使用近端平均法(S0/ l1 - lrssc)近似关节解的近端映射。在确定了两种算法的收敛条件的情况下，用交替方向乘子法求解了所得到的非凸优化问题。在合成数据和四个真实数据集上获得的结果表明，GMC-LRSSC和S0/L0-LRSSC与最新的方法相比是有效的。 |
 
-#### 马磊磊
+##### 马磊磊
 - **论文名字** : Multi-Label Classification with Label Graph Superimposing ;
 - **论文来源** : 2020AAAI ;
 - **代码地址** : [链接](https://github.com/mathkey/mssnet) 或者 https://github.com/DaYuML/mssnet ; 
