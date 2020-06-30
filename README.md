@@ -24,7 +24,7 @@
 #### 曾凡晨
 - **论文名字** : Skeleton-Based Action Recognition with Directed Graph Neural Networks ;
 - **论文来源** : 2019CVPR ;
-- **代码地址** : [连接](https://github.com/kenziyuliu/Unofficial-DGNN-PyTorch) 或者 https://github.com/kenziyuliu/Unofficial-DGNN-PyTorch ;
+- **代码地址** : [连接](https://github.com/kenziyuliu/Unofficial-DGNN-PyTorch) 或者 https://github.com/DaYuML/Unofficial-DGNN-PyTorch ;
 - **方法简称** : DGNN ;
 - **方法方向** : 行为骨骼识别 ;
 - **快速获取** :
@@ -41,7 +41,7 @@ git clone https://github.com/TiantianWang/ICCV17_SRM.git
 #### 吕祥杰
 - **论文名字** : A Stagewise Refinement Model for Detecting Salient Objects in Images ;
 - **论文来源** : 2017ICCV ;
-- **代码地址** : [链接](https://github.com/TiantianWang/ICCV17_SRM) 或者 https://github.com/TiantianWang/ICCV17_SRM ; 
+- **代码地址** : [链接](https://github.com/TiantianWang/ICCV17_SRM) 或者 https://github.com/DaYuML/ICCV17_SRM ; 
 - **方法简称** : SRM ;
 - **方法方向** : 显著性检测 ;
 - **快速获取** : 
@@ -71,10 +71,41 @@ git clone https://github.com/kenziyuliu/Unofficial-DGNN-PyTorch.git
 #### 王鑫鑫
 - **论文名字** : Skeleton-Based Action Recognition with Directed Graph Neural Networks ;
 - **论文来源** : 2019CVPR ;
-- **代码地址** : [连接](https://github.com/kenziyuliu/Unofficial-DGNN-PyTorch) 或者 https://github.com/kenziyuliu/Unofficial-DGNN-PyTorch ;
+- **代码地址** : [连接](https://github.com/kenziyuliu/Unofficial-DGNN-PyTorch) 或者 https://github.com/DaYuML/Unofficial-DGNN-PyTorch ;
 - **方法简称** : DGNN ;
 - **方法方向** : 行为骨骼识别 ;
 - **快速获取**
 ```powershell
 git clone https://github.com/TiantianWang/ICCV17_SRM.git
 ```
+
+#### 2020年6月30号
+#### 凌媛
+- **论文名字** : TEA: Temporal Excitation and Aggregation for Action Recognition ;
+- **论文来源** : 2018IEEE Transactions on Cybernetics ;
+- **代码地址** : [链接](https://github.com/mbrbic/L0-motivated-LRSSC) 或者 https://github.com/DaYuML/L0-motivated-LRSSC ; 
+- **方法简称** : LRSSC ;
+- **方法方向** : 显著性检测 ;
+- **快速获取** : 
+```powershell
+git clone https://github.com/mbrbic/L0-motivated-LRSSC.git
+```
+
+| 方法介绍 |
+| :-------- |
+| 在许多应用中，高维数据点可以用低维子空间很好地表示。为了识别子空间，捕获数据的全局和局部结构是很重要的，这是通过对数据表示矩阵施加低秩和稀疏约束来实现的。在低秩稀疏子空间聚类(LRSSC)中，利用核范数和l1范数来度量秩和稀疏性。然而，使用核规范和l1 -规范导致了一个过于严重的问题，而且只是近似于原来的问题。在本文中，我们提出了两个基于L0拟范数的正则化。首先，提出了基于最小凹惩罚的多元概化正则化方法，该方法包含了拟范数正则化目标的全局极小化。随后，我们引入Schatten-0 (S0)和l1 -正则化目标，并使用近端平均法(S0/ l1 - lrssc)近似关节解的近端映射。在确定了两种算法的收敛条件的情况下，用交替方向乘子法求解了所得到的非凸优化问题。在合成数据和四个真实数据集上获得的结果表明，GMC-LRSSC和S0/L0-LRSSC与最新的方法相比是有效的。 |
+
+#### 马磊磊
+- **论文名字** : Multi-Label Classification with Label Graph Superimposing ;
+- **论文来源** : 2020AAAI ;
+- **代码地址** : [链接](https://github.com/mathkey/mssnet) 或者 https://github.com/DaYuML/mssnet ; 
+- **方法简称** : LRSSC ;
+- **方法方向** : 显著性检测 ;
+- **快速获取** : 
+```powershell
+git clone https://github.com/mathkey/mssnet.git
+```
+
+| 方法介绍 |
+| :-------- |
+| 图像或视频总是包含多个对象或动作。由于深度学习技术的快速发展，多标签识别已经实现了良好的性能。近年来，图卷积网络(GCN)被用来提高多标签识别的性能。但是，标签相关建模的最佳方式是什么，以及如何通过标签系统感知来改进特征学习，目前还不清楚。本文提出了一种标签图叠加框架，从以下两个方面对传统的多标签识别GCN+CNN框架进行改进。首先，通过将统计共现信息构建的标签图叠加到标签知识先验构建的标签图中，建立标签相关性模型，然后对最终生成的优势图进行多层卷积，实现标签的嵌入抽象。其次，我们提出利用整个标签系统的嵌入来更好地学习表示。其中，在浅层、中层和深层添加GCN和CNN之间的横向连接，将标签系统的信息注入到骨干CNN中，用于特征学习过程中的标签感知。在MSCOCO和Charades数据集上进行了大量的实验，结果表明我们提出的解决方案可以极大地提高识别性能，并取得了新的先进的识别性能。 |
