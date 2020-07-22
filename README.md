@@ -19,27 +19,9 @@
 
 ### 2020春季
 
-
-#### 2020年6月26号
-
-##### 凌媛
-- **论文名字** : Network Representation Learning with Rich Text Information ;
-- **论文来源** : 2015IJCAI ;
-- **代码地址** : [链接](https://github.com/DaYuML/TADW) 或者 https://github.com/DaYuML/TADW ; 
-- **方法简称** : TADW ;
-- **方法方向** : 网络表示学习 ;
-- **快速获取** : 
-```powershell
-git clone https://github.com/DaYuML/TADW.git
-```
-
-| 方法介绍 |
-| :-------- |
-| 表示学习在图像分类和文本挖掘等任务中显示了其有效性。网络表示学习的目的是学习网络中每个顶点的分布式向量表示，它也日益被认为是网络分析的一个重要方面。大多数网络表示学习方法研究网络结构进行学习。现实中，网络顶点包含丰富的信息，典型的表示学习算法框架不能很好地应用这些信息。通过证明DeepWalk，一种最先进的网络表示方法，实际上等价于矩阵分解(MF)，我们提出了文本相关的DeepWalk (TADW)。在矩阵分解的框架下，TADW将顶点的文本特征融入到网络表示学习中。我们通过将我们的方法和各种基线方法应用于顶点的多类分类任务来评估它们。实验结果表明，该方法在三个数据集上的性能都优于其他基线，特别是在网络噪声较大和训练比较小时。 |
-
 #### 2020年6月16号
 
-##### 曾凡晨
+#### 曾凡晨
 - **论文名字** : Skeleton-Based Action Recognition with Directed Graph Neural Networks ;
 - **论文来源** : 2019CVPR ;
 - **代码地址** : [连接](https://github.com/kenziyuliu/Unofficial-DGNN-PyTorch) 或者 https://github.com/DaYuML/Unofficial-DGNN-PyTorch ;
@@ -54,7 +36,9 @@ git clone https://github.com/TiantianWang/ICCV17_SRM.git
 | :-------- |
 | 在这项工作中，我们根据人体关节和骨骼之间的运动相关性，将骨骼数据表示为有向无环图 (DAG)。设计了一种新的有向图神经网络，用于提取关节、骨骼及其相互关系的信息，并根据提取的特征进行预测。另外，为了更好地适应动作识别任务，在训练过程的基础上，对图的拓扑结构进行了自适应(Adaptive)，使其得到了显著的改进。在双流框架下，利用骨架序列的运动信息，结合空间信息，进一步提高性能。|
 
-##### 吕祥杰
+
+
+#### 吕祥杰
 - **论文名字** : A Stagewise Refinement Model for Detecting Salient Objects in Images ;
 - **论文来源** : 2017ICCV ;
 - **代码地址** : [链接](https://github.com/TiantianWang/ICCV17_SRM) 或者 https://github.com/DaYuML/ICCV17_SRM ; 
@@ -72,7 +56,7 @@ git clone https://github.com/kenziyuliu/Unofficial-DGNN-PyTorch.git
 
 #### 2020年6月23号
 
-##### 苏志翔
+#### 苏志翔
 - **论文名字** : TEA: Temporal Excitation and Aggregation for Action Recognition ;
 - **论文来源** : ICCV2019 ;
 - **代码地址** : 还没发布 ; 
@@ -84,30 +68,25 @@ git clone https://github.com/kenziyuliu/Unofficial-DGNN-PyTorch.git
 | :-------- |
 | 时态建模是视频动作识别的关键。它通常既考虑短期的移动，也考虑长期的聚集。在本文中，我们提出了一个时间激发和聚集(TEA)模块，包括一个运动激发(ME)模块和一个多时间聚集(MTA)模块，专门设计来捕获短期和长期的时间演化。特别是对于短程运动建模，ME模块从时空特征计算特征级的时间差异。然后，它利用这些差异来激发特征的动作敏感通道。在以往的工作中，长期的时间聚合通常是通过叠加大量的局部时间卷积来实现的。每次卷积处理一个局部时间窗口。相比之下，MTA模块提出将局部卷积变形为一组子卷积，形成层次化残差结构。在不引入附加参数的情况下，对特征进行一系列的子卷积处理，每一帧可以完成多个邻域的时间聚合。最终的时间维的等效感受域被相应地扩大，从而能够在远帧上建立长期的时间关系。茶块的两个组成部分在时态建模中是互补的。最后，我们的方法在几个行动识别基准上取得了令人印象深刻的结果，例如Kinetics, Something-Something, HMDB51，和UCF101，这证明了它的有效性和效率。 |
 
-##### 王鑫鑫
-- **论文名字** : GEMSEC: Graph Embedding with Self Clustering ;
-- **论文来源** : 2019ASONAM ;
-- **代码地址** : [连接](https://github.com/benedekrozemberczki/GEMSEC) 或者 https://github.com/DaYuML/GEMSEC ;
-- **方法简称** : GEMSEC ;
-- **方法方向** : 图嵌入 ;
+#### 王鑫鑫
+- **论文名字** : Skeleton-Based Action Recognition with Directed Graph Neural Networks ;
+- **论文来源** : 2019CVPR ;
+- **代码地址** : [连接](https://github.com/kenziyuliu/Unofficial-DGNN-PyTorch) 或者 https://github.com/DaYuML/Unofficial-DGNN-PyTorch ;
+- **方法简称** : DGNN ;
+- **方法方向** : 行为骨骼识别 ;
 - **快速获取**
 ```powershell
-git clone https://github.com/DaYuML/GEMSEC.git
+git clone https://github.com/TiantianWang/ICCV17_SRM.git
 ```
-
-| 方法介绍 |
-| :-------- |
-| 现代的图嵌入过程可以有效地处理具有数百万节点的图。在本文中，我们提出了gemseca图嵌入算法，该算法在计算嵌入节点的同时学习节点的聚类。GEMSEC是早期基于序列的嵌入图领域工作的一般扩展。GEMSEC将节点放置在一个抽象的特征空间中，在这个空间中，顶点特征最小化了保留抽样顶点邻域的负对数概率，并通过机器学习正则化整合了已知的社交网络属性。我们提出了两个新的社交网络数据集，并表明通过同时考虑与社交属性相关的嵌入和聚类问题，GEMSEC可以提取出高质量的具有竞争力或优于其他社区检测算法的聚类。实验表明，该方法对超参数的选择具有较高的计算效率和鲁棒性。 |
-
 
 #### 2020年6月30号
 
-##### 凌媛
+#### 凌媛
 - **论文名字** : TEA: Temporal Excitation and Aggregation for Action Recognition ;
 - **论文来源** : 2018IEEE Transactions on Cybernetics ;
 - **代码地址** : [链接](https://github.com/mbrbic/L0-motivated-LRSSC) 或者 https://github.com/DaYuML/L0-motivated-LRSSC ; 
 - **方法简称** : LRSSC ;
-- **方法方向** : 数据表示矩阵施加低秩和稀疏约束 ;
+- **方法方向** : 显著性检测 ;
 - **快速获取** : 
 ```powershell
 git clone https://github.com/mbrbic/L0-motivated-LRSSC.git
@@ -117,12 +96,12 @@ git clone https://github.com/mbrbic/L0-motivated-LRSSC.git
 | :-------- |
 | 在许多应用中，高维数据点可以用低维子空间很好地表示。为了识别子空间，捕获数据的全局和局部结构是很重要的，这是通过对数据表示矩阵施加低秩和稀疏约束来实现的。在低秩稀疏子空间聚类(LRSSC)中，利用核范数和l1范数来度量秩和稀疏性。然而，使用核规范和l1 -规范导致了一个过于严重的问题，而且只是近似于原来的问题。在本文中，我们提出了两个基于L0拟范数的正则化。首先，提出了基于最小凹惩罚的多元概化正则化方法，该方法包含了拟范数正则化目标的全局极小化。随后，我们引入Schatten-0 (S0)和l1 -正则化目标，并使用近端平均法(S0/ l1 - lrssc)近似关节解的近端映射。在确定了两种算法的收敛条件的情况下，用交替方向乘子法求解了所得到的非凸优化问题。在合成数据和四个真实数据集上获得的结果表明，GMC-LRSSC和S0/L0-LRSSC与最新的方法相比是有效的。 |
 
-##### 马磊磊
+#### 马磊磊
 - **论文名字** : Multi-Label Classification with Label Graph Superimposing ;
 - **论文来源** : 2020AAAI ;
 - **代码地址** : [链接](https://github.com/mathkey/mssnet) 或者 https://github.com/DaYuML/mssnet ; 
-- **方法简称** : mssnet ;
-- **方法方向** : 多标签图像分类 ;
+- **方法简称** : LRSSC ;
+- **方法方向** : 显著性检测 ;
 - **快速获取** : 
 ```powershell
 git clone https://github.com/mathkey/mssnet.git
@@ -131,3 +110,71 @@ git clone https://github.com/mathkey/mssnet.git
 | 方法介绍 |
 | :-------- |
 | 图像或视频总是包含多个对象或动作。由于深度学习技术的快速发展，多标签识别已经实现了良好的性能。近年来，图卷积网络(GCN)被用来提高多标签识别的性能。但是，标签相关建模的最佳方式是什么，以及如何通过标签系统感知来改进特征学习，目前还不清楚。本文提出了一种标签图叠加框架，从以下两个方面对传统的多标签识别GCN+CNN框架进行改进。首先，通过将统计共现信息构建的标签图叠加到标签知识先验构建的标签图中，建立标签相关性模型，然后对最终生成的优势图进行多层卷积，实现标签的嵌入抽象。其次，我们提出利用整个标签系统的嵌入来更好地学习表示。其中，在浅层、中层和深层添加GCN和CNN之间的横向连接，将标签系统的信息注入到骨干CNN中，用于特征学习过程中的标签感知。在MSCOCO和Charades数据集上进行了大量的实验，结果表明我们提出的解决方案可以极大地提高识别性能，并取得了新的先进的识别性能。 |
+
+
+### 2020夏季
+
+#### 2020年7月8号
+
+#### 倪守航
+- **论文名字** : Predicting drug-drug interactions using multi-modal deep auto-encoders based network embedding and positive-unlabeled learning ;
+- **论文来源** : 2019BIBM ;
+- **代码地址** : 暂时没有 ; 
+- **方法简称** : DDI-MDAE ;
+- **方法方向** : 显著性检测 ;
+- **快速获取** : 
+```powershell
+# 暂无
+```
+
+| 方法介绍 |
+| :-------- |
+| 药物-药物相互作用(DDIs)对公共卫生和患者安全至关重要，已引起学术界和产业界的广泛关注。现有的计算性DDI预测方法主要分为基于文献提取、基于相似度、基于矩阵操作和基于网络的四种预测方法。近年来的一些研究表明，整合药物的异质性特征对于开发高精度的预测模型是非常重要的。同时，缺乏某些特征的药物可以利用其他特征来学习表征。本文提出了一种基于多模态深度自编码器的药物表示学习方法DDI-MDAE，用于从大规模、有噪声和稀疏的数据中预测药物表示。我们的方法旨在使用多模态深度自动编码器同时从多个药物特征网络中学习统一的药物表示。 |
+
+#### 杨康
+- **论文名字** : Structural Deep Clustering Network ;
+- **论文来源** : 2020WWW ;
+- **代码地址** : [链接](https://github.com/bdy9527/SDCN) 或者 https://github.com/DaYuML/SDCN ; 
+- **方法简称** : SDCN ;
+- **方法方向** : 深度聚类 ;
+- **快速获取** : 
+```powershell
+git clone https://github.com/DaYuML/SDCN.git
+```
+
+| 方法介绍 |
+| :-------- |
+| 聚类是数据分析中的一项基本任务。最近，深度聚类(deep clustering)获得了最先进的性能，并引起了广泛关注，其灵感主要来自深度学习方法。目前的深度聚类方法通常是通过深度学习的强大表征能力来提高提高的结果，例如autoencoder，这表明学习一种有效的聚类表示是一个至关重要的需求。深度聚类方法的优点在于从数据本身中提取有用的表示，而不是从数据的结构中提取，这是表示学习中很少关注的问题。基于图卷积网络(GCN)对图结构进行编码的巨大成功，我们提出了一种结构深度聚类网络(SDCN)，将结构信息集成到深度聚类中。具体来说，我们设计了一个传递算子来将autoencoder学到的表示传递到相应的GCN层，以及一个双重自监督机制来统一这两种不同的深度神经结构，并指导整个模型的更新。这样，数据的多重结构，从低阶到高阶，与自动编码器学习的多重表示自然地结合在一起。此外，我们还从理论上分析了配送算子，即配送算子。例如，GCN利用传递算子改进了自编码器特有的表示，将其作为高阶图正则化约束，而autoencoder帮助缓解了GCN中的过度平滑问题。通过全面的实验，我们证明了我们提出的模型可以始终如一地比最先进的技术表现得更好。 |
+
+
+#### 2020年7月15号
+
+#### 曾凡晨
+- **论文名字** : Centrality Graph Convolutional Networks for Skeleton-based Action Recognition ;
+- **论文来源** : arxiv ;
+- **代码地址** : 暂时没有 ; 
+- **方法简称** : CGCN ;
+- **方法方向** : 骨骼行为识别 ;
+- **快速获取** : 
+```powershell
+# 暂无
+```
+
+| 方法介绍 |
+| :-------- |
+| 骨骼数据的拓扑结构在人类动作识别中起着重要的作用。将拓扑结构与图卷积网络相结合，取得了显著的性能。在现有的方法中，骨骼数据的拓扑结构建模只考虑关节与骨骼之间的联系，直接使用物理信息。然而，对人体每一次活动的关键关节、骨骼和身体部位的研究存在着一个未知的问题。本文提出了一种中心性图卷积网络来揭示被忽略的拓扑信息，并充分利用这些信息来区分关键的关节、骨骼和身体部位。一种新型中心性图卷积网络首先突出了关键关节和骨骼的作用，从而带来了一定的改进。此外，探索并结合骨架序列的拓扑信息，进一步提高四通道框架的性能。在训练过程中利用自适应方法实现重构图，进一步提高了重构图的性能。我们的模型通过两个大数据集，即NTU-RGB+D和Kinetics验证，并且优于最先进的方法。 |
+
+#### 李大双
+- **论文名字** : Structural Deep Clustering Network ;
+- **论文来源** : 2019WWW ;
+- **代码地址** : [链接](https://github.com/Jhy1993/HAN) 或者 https://github.com/DaYuML/HAN ; 
+- **方法简称** : HAN ;
+- **方法方向** : 多层网络 ;
+- **快速获取** : 
+```powershell
+git clone https://github.com/DaYuML/HAN.git
+```
+
+| 方法介绍 |
+| :-------- |
+| 图神经网络作为一种基于深度学习的功能强大的图表示技术，表现出了优越的性能，并引起了广泛的研究兴趣。然而，对于包含不同类型节点和链接的异构图，图神经网络并没有充分考虑到这一点。异构性和丰富的语义信息给异构图的图神经网络设计带来了很大的挑战。最近，深度学习领域最令人兴奋的进展之一是注意力机制，其巨大的潜力在各个领域都得到了很好的展示。本文首先提出了一种基于分层关注的异构图神经网络，包括节点级关注和语义级关注。具体来说，节点级注意的目的是学习节点与其基于元路径的邻居之间的重要性，而语义级注意能够学习不同元路径之间的重要性。通过节点级注意和语义级注意的学习重要性，可以充分考虑节点和元路径的重要性。然后将基于元路径的相邻节点的特征分层聚合，生成节点嵌入。在三个真实世界的异构图上的广泛实验结果不仅显示了我们所提出的模型的优越性能，而且也显示了它对图分析的潜在良好的可解释性。 |
