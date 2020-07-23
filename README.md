@@ -79,6 +79,11 @@ git clone https://github.com/kenziyuliu/Unofficial-DGNN-PyTorch.git
 git clone https://github.com/TiantianWang/ICCV17_SRM.git
 ```
 
+| 方法介绍 |
+| :-------- |
+| 现代的图嵌入过程可以有效地处理具有数百万节点的图。在本文中，我们提出了gemseca图嵌入算法，该算法在计算嵌入节点的同时学习节点的聚类。GEMSEC是早期基于序列的嵌入图领域工作的一般扩展。GEMSEC将节点放置在一个抽象的特征空间中，在这个空间中，顶点特征最小化了保留抽样顶点邻域的负对数概率，并通过机器学习正则化整合了已知的社交网络属性。我们提出了两个新的社交网络数据集，并表明通过同时考虑与社交属性相关的嵌入和聚类问题，GEMSEC可以提取出高质量的具有竞争力或优于其他社区检测算法的聚类。实验表明，该方法对超参数的选择具有较高的计算效率和鲁棒性。 |
+
+
 #### 2020年6月30号
 
 #### 凌媛
@@ -86,7 +91,7 @@ git clone https://github.com/TiantianWang/ICCV17_SRM.git
 - **论文来源** : 2018IEEE Transactions on Cybernetics ;
 - **代码地址** : [链接](https://github.com/mbrbic/L0-motivated-LRSSC) 或者 https://github.com/DaYuML/L0-motivated-LRSSC ; 
 - **方法简称** : LRSSC ;
-- **方法方向** : 显著性检测 ;
+- **方法方向** : 高纬数据低秩表示 ;
 - **快速获取** : 
 ```powershell
 git clone https://github.com/mbrbic/L0-motivated-LRSSC.git
@@ -101,7 +106,7 @@ git clone https://github.com/mbrbic/L0-motivated-LRSSC.git
 - **论文来源** : 2020AAAI ;
 - **代码地址** : [链接](https://github.com/mathkey/mssnet) 或者 https://github.com/DaYuML/mssnet ; 
 - **方法简称** : LRSSC ;
-- **方法方向** : 显著性检测 ;
+- **方法方向** : 多标签图像分类 ;
 - **快速获取** : 
 ```powershell
 git clone https://github.com/mathkey/mssnet.git
@@ -121,7 +126,7 @@ git clone https://github.com/mathkey/mssnet.git
 - **论文来源** : 2019BIBM ;
 - **代码地址** : 暂时没有 ; 
 - **方法简称** : DDI-MDAE ;
-- **方法方向** : 显著性检测 ;
+- **方法方向** : 药物检测分析 ;
 - **快速获取** : 
 ```powershell
 # 暂无
